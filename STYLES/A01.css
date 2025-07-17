@@ -37,7 +37,6 @@ nav {
     justify-content: space-between;
     margin: 0px 150px 50px;
 }
-/* /navigation*/
 /* banner*/
 #banner-title {
     font-family: "Raleway", sans-serif;
@@ -51,6 +50,36 @@ nav {
     display: block;
     margin: 37px auto 150px; 
 }
-/* /banner*/
 /* /header */
 
+/* main */
+/* action */
+main {
+    margin: 0px 150px 0px 150px;
+}
+/* action */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px 100px;
+}
+.action-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.action-text {
+    color: rgba(37, 36, 50, 0.5);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #252432;
+}
+.action-image {
+    border-radius: 48px;
+}
+/* /main */
