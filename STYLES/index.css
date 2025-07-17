@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 /* shared styles*/
 .logo-text {
     color: #4E47FF;
@@ -116,5 +120,48 @@ main {
     letter-spacing: 0%;
     text-align: center;
     margin-top: 0px;
+}
+/* feedback */
+.feedback-section{
+    margin-top: 70px;
+}
+.feedback-section h2{
+    text-align: center;
+    font-size: 40px;
+    color: #000000c9;
+}
+.feedback-container{
+    display: flex;
+    gap: 20px;
+}
+.feedback{
+    background-color: #f0f8ff94;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.feedback-section .feedback h2{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 0px;
+}
+.reviewer-details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.reviewer-details .profile img{
+    border-radius: 50%;
+}
+.feedback p{
+    margin-bottom: 13px;
+}
+.profile-details h5{
+    font-size: 20px;
+    color: #000000ab;
+}
+.profile-details p{
+    color: #0000007e;
 }
 /* /main */
