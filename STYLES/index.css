@@ -82,4 +82,39 @@ main {
 .action-image {
     border-radius: 48px;
 }
+/* users */
+.users {
+    margin: 100px 0px;
+    padding: 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+}
+.users-title {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.users-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.users-num {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.users-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+}
 /* /main */
