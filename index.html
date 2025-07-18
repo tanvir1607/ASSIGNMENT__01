@@ -1,131 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <title>taqdir.com</title>
+    <title>tanvir.com</title>
     <link rel="stylesheet" href="./STYLES/index.css">
 </head>
 
-
 <body>
-    <header class="header">
-        <nav>
-            <a class="logo-text" id="nav-text" href="#">TAQDIR</a>
-            <a href="#"><button class="button" id="nav-button">Sign Up</button></a>
+    <header class="bg">
+        <nav class="container">
+            <div class="logo">TANVIR</div>
+            <button class="button">Sign Up</button>
         </nav>
-        <section class="banner">
-            <h5 id="banner-title">Cool Dark UI Template for<br>Webflow Agencies!</h5>
-            <button class="button" id="banner-button">Stay Focused</button>
-        </section>
     </header>
-
-    <main class="main">
-        <div class="action">
-            <section class="action-part">
-                <h5 class="action-title">See It in Action</h5>
-                <p class="action-text">
-                    Explore the live preview and imagine your<br>
-                    brand in this bold new look.
-                </p>
-                <a href="#"><button class="button">Launch Live Preview</button></a>
-            </section>
-            <img class="action-image" src="./IMAGES/wc-mini.png">
+    <section class="banner-section bg">
+        <div class="container">
+            <h1>Cool Dark UI Template for Webflow Agencies!</h1><br>
+            <button class="button">Stay Focused</button
         </div>
-
-        <div class="users">
-            <h5 class="users-title">Joined Thousands of Productive Users</h5>
-            <div class="users-content">
-                <div>
-                <h1 class="logo-text users-num">50K</h1>
-                <p class="users-text">Active Users</p>
-                </div>
-                <div>
-                    <h1 class="logo-text users-num">2M+</h1>
-                    <p class="users-text">Focus Sessions</p>
-                </div>
-                <div>
-                    <h1 class="logo-text users-num">95%</h1>
-                    <p class="users-text">Satisfaction Rate</p>
-                </div>
-            </div>
+    </section>
+    <section class="action container">
+        <div class="action-left">
+            <h2>See it in Action</h2>
+            <p>Explore the live preview and imagine your brand in this bold new look.</p>
+            <button class="button">Launch Live Preview</button>
         </div>
+        <img class="action-right" src="./IMAGES/wc-mini.png" alt="">
 
-        <section class="feedback-section container">
-            <h2>What our users say</h2>
-            <div class="feedback-container">
-            <div class="feedback">
-                <div class="stars">
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                </div>
-                <h2>Loved by Designers</h2>
-                <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <div class="reviewer-details">
-                    <div class="profile">
-                        <img src="./IMAGES/avatar.png" alt="">
-                    </div>
-                    <div class="profile-details">
-                        <h5>Reviewer Name</h5>
-                        <p>Date</p>
-                    </div>
-                </div>
-            </div>
-            <div class="feedback">
-                <div class="stars">
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                </div>
-                <h2>Loved by Designers</h2>
-                <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <div class="reviewer-details">
-                    <div class="profile">
-                        <img src="./IMAGES/avatar.png" alt="">
-                    </div>
-                    <div class="profile-details">
-                        <h5>Reviewer Name</h5>
-                        <p>Date</p>
-                    </div>
-                </div>
-            </div>
+    </section>
 
-            <div class="feedback">
-                <div class="stars">
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                    <img src="./IMAGES/icon-star.png" alt>
-                </div>
-                <h2>Loved by Designers</h2>
-                <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <div class="reviewer-details">
-                    <div class="profile">
-                        <img src="./IMAGES/avatar.png" alt="">
-                    </div>
-                    <div class="profile-details">
-                        <h5>Reviewer Name</h5>
-                        <p>Date</p>
-                    </div>
-                </div>
+    <section class="user container">
+        <h2>Joined Thousands of Productive Users</h2>
+        <div class="number">
+            <div class="num">
+                <h4>50k</h4>
+                <p>Active Users</p>
+            </div>
+            <div class="num">
+                <h4>2M+</h4>
+                <p>Focus Sessions</p>
+            </div>
+            <div class="num">
+                <h4>95%</h4>
+                <p>Satisfaction Rate</p>
             </div>
         </div>
     </section>
-    </main>
 
-    <footer>
+    <section class="feedback-section container">
+        <h2>What our users say</h2>
+        <div class="feedback-container">
+        <div class="feedback">
+            <div class="stars">
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+            </div>
+            <h2>Loved by Designers</h2>
+            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+            <div class="reviewer-details">
+                <div class="profile">
+                    <img src="./IMAGES/avatar.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <h5>Reviewer Name</h5>
+                    <p>Date</p>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="stars">
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+            </div>
+            <h2>Loved by Designers</h2>
+            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+            <div class="reviewer-details">
+                <div class="profile">
+                    <img src="./IMAGES/avatar.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <h5>Reviewer Name</h5>
+                    <p>Date</p>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="stars">
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+                <img src="./IMAGES/icon-star.png" alt>
+            </div>
+            <h2>Loved by Designers</h2>
+            <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+            <div class="reviewer-details">
+                <div class="profile">
+                    <img src="./IMAGES/avatar.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <h5>Reviewer Name</h5>
+                    <p>Date</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="focus container">
+        <h2>Ready to focus better</h2>
+        <p>This template instantly leveled up our presence.” – Studio Vertex</p><br>
+        <button class="button">Get Started Free</button> <br>
+        <img src="./IMAGES/wc-big.png" alt="">
+    </section>
+
+    <section class="touch container">
+        <div class="touch-left">
+            <h2>Let's Get in <br> Touch</h2>
+        </div>
+        <div class="touch-right">
+            <form action="">
+                <label for="">Email</label><br>
+                <input class="input" type="email" name="" id="" placeholder="example@gmail.com"><br>
+                <label for="">Name</label> <br>
+                <input type="text" name="" id="" placeholder="full Name" class="input"><br>
+                <label for="">Message</label><br>
+                <textarea class="input" name="" rows="3" id=""></textarea>
+                <button>Get In Touch</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="logo">TANVIR</div>
+        <p>Ready to elevate your online presence? Contact us today to discuss <br>your project and discover how we can bring your vision to life.</p>
+        <div class="navigator">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How It works</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
     </footer>
+
 </body>
 </html>

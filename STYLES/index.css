@@ -1,125 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-.container{
+.container {
     width: 1140px;
     margin: 0 auto;
 }
-/* shared styles*/
-.logo-text {
-    color: #4E47FF;
-    text-decoration: none;
-    font-size: 34px;
-    font-weight: 800;
-    line-height: 150%;;
-    font-family: "Inter", "sans-serif";
-    text-transform: uppercase;
-    padding: 10px 5px 10px 5px;
-}
+/* shared styles */
 .button {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    color: white;
     background-color: #4E47FF;
+    color: white;
     border-radius: 10px;
     border: none;
-    padding: 12px 36px;
+    padding: 8px 23px;
+    font-size: 16px;
+    transition: 0.6s;
 }
-/* /shared styles*/
+
 
 /* header */
-.header {
+header {
+    height: 150px;
+    margin: 0 auto;
+}
+.bg {
     background-image: url("../IMAGES/Hero-bg.png");
-    background-repeat: no-repeat;
-    height: 550px;
+    height: 350px;
 }
-/* navigation*/
-nav {
+/* nav */
+header nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0px 150px 50px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
-/* banner*/
-#banner-title {
-    font-family: "Raleway", sans-serif;
+header nav button {
+    padding: 8px 23px;
+    font-size: 16px;
+}
+header nav .logo {
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+/* banner */
+.banner-section{
+    margin: 0px auto;
+}
+.banner-section h1{
+    text-align: center;
+    font-weight: bold;
     font-size: 65px;
-    text-align: center;
-    color: #252432;
-    margin: 208px 267.5px 0px;
-    padding: 0px 10px;
+    font-family: "Raleway";
+    margin-top: -100px;
 }
-#banner-button {
+.banner-section button{
+    padding: 18px 36px;
+    font-size: 16px;
     display: block;
-    margin: 37px auto 150px; 
-}
-/* /header */
-
-/* main */
-/* action */
-main {
-    margin: 0px 150px 0px 150px;
+    margin: 20px auto;
+    transition: 0.6s;
 }
 /* action */
-.action {
+.action{
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px 0px 100px;
 }
-.action-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
+.action-right {
+    border-radius: 10px;
+}
+.action .action-left h2 {
     font-size: 42px;
-    color: #252432;
-    margin-bottom: 20px;
+    font-size: bold;
 }
-.action-text {
-    color: rgba(37, 36, 50, 0.5);
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #252432;
+.action-left button {
+    margin-top: 20px;
+    transition: 0.6s;
 }
-.action-image {
-    border-radius: 48px;
+.action-left p {
+    margin-top: 10px;
 }
-/* users */
-.users {
-    margin: 100px 0px;
-    padding: 50px 80px;
-    border-radius: 24px;
-    background: rgba(78, 71, 255, 0.1);
+
+/* user */
+.user {
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
 }
-.users-title {
-    color: rgb(37, 36, 50);
-    font-family: Raleway;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 45px;
+.user h2 {
+    font-size: 42px;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
 }
-.users-content {
+.user .number {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
-.users-num {
-    font-size: 80px;
-    margin-bottom: 0px;
+.number .num {
+    padding: 0px 90px;
 }
-.users-text {
-    color: rgba(0, 0, 0, 0.5);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 0px;
+.number .num h4 {
+    font-size: 65px;
+    color: #4E47FF;
+    margin-top: 20px;
 }
 /* feedback */
 .feedback-section{
@@ -164,4 +152,93 @@ main {
 .profile-details p{
     color: #0000007e;
 }
-/* /main */
+/* focus */
+.focus {
+    margin: 35px auto;
+}
+.focus h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.focus p{
+    text-align: center;
+    opacity: 0.6;
+}
+.focus button{
+    display: block;
+    margin: 0 auto;
+}
+.focus img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+/* touch */
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.touch .touch-left h2{
+    font-size: 97px;
+}
+.touch .touch-right{
+    margin: 80px 20px;
+}
+.touch .touch-right .input {
+    font-size: 18px;
+    padding: 10px 0px 7px 25px;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px 0px;
+    width:100%;
+}
+.touch-right button {
+    width: 100%;
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.6s;
+}
+/* footer */
+footer {
+    padding: 40px 0px;
+}
+footer .logo {
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #4E47FF;
+}
+footer p {
+    text-align: center;
+    opacity: 0.6;
+}
+.navigator ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 20px;
+}
+.navigator ul li {
+    list-style: none;
+}
+.navigator ul li a {
+    text-decoration: none;
+    opacity: 0.6;
+}
+button:hover {
+    background-color: green;
+    transition: 0.6s;
+    transform: scale(1.09);
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
